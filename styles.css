@@ -125,7 +125,7 @@ body {
   text-decoration: underline;
 }
 .fondo{
-  background-image: url(Imgfondo/home.png);
+  background-image: url(home.png);
   background-repeat: no-repeat;
   color: #ffffff;
     /* Rellenamos el fondo */
