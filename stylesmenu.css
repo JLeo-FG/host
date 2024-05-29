@@ -1,0 +1,829 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+/* Estilos del menú de navegación */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 45px 10px 45px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+.boton{
+  margin: 15px 15px 10px 15px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+.boton:hover{
+  background-color: #afafaf;
+}
+.boton:active{
+  background-color: #818181;
+}
+.login-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(6, 1fr);
+  text-align: center;
+  margin: 150px 0px 0px 800px;
+  padding: 15px 15px 15px 15px;
+  width: 300px;
+  height: 430px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.c1{
+  grid-row: 1;
+  padding: 15px;
+  background-color: #818181;
+}
+.c2{
+  grid-row: 2;
+  padding: 15px;
+  background-color: #818181;
+}
+.c3{
+  grid-row: 3;
+  padding: 15px;
+  background-color: #818181;
+}
+.c4{
+  grid-row: 4;
+  padding: 15px;
+  background-color: #818181;
+}
+
+.c5{
+  grid-row: 5;
+  padding: 15px;
+  background-color: #818181;
+}
+
+.c6{
+  grid-row: 6;
+  padding: 15px;
+  background-color: #818181;
+}
+
+/*Contacto-------------------------------------------------------------------------*/
+.label{
+  color: #ffffff;
+}
+.iconos{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(7, 1fr);
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  border: 10px;
+}
+.icono_1{
+  grid-row: 1;
+  color: #ffffff;
+  text-align: center;
+}
+.icono_2{
+  grid-row: 2;
+  color: #ffffff;
+  text-align: center;
+}
+.icono_3{
+  grid-row: 3;
+  color: #ffffff;
+  text-align: center;
+}
+.icono_4{
+  grid-row: 4;
+  color: #ffffff;
+  text-align: center;
+}
+.icono_5{
+  grid-row: 5;
+  color: #ffffff;
+  text-align: center;
+}
+.icono_6{
+  grid-row: 6;
+  color: #ffffff;
+  text-align: center;
+}
+.icono_7{
+  grid-row: 7;
+  color: #ffffff;
+  text-align: center;
+}
+.emo{
+  margin: -900px 0px 0px 900px;
+  width: 700px;
+  height: 700px;
+}
+/*Portafolios-------------------------------------------------------------------*/
+.texto_p1{
+  margin: 50px 1150px 0px 80px;
+  text-align: justify;
+  color: #ffffff;
+}
+.titulo_p1{
+  margin: 600px 1100px 0px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.p1{
+  margin: -300px 0px 0px 70px;
+}
+.imgp1{
+  width: 450 px;
+  height: 600px;
+  margin: -400px 0px 0px 1000px;
+}
+/*Tienda---------------------------------------------------------------------*/
+.tarjeta1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  width: 690px;
+  height: 840px;
+  text-align: center;
+  margin: 150px 0px 0px 100px;
+  border: 10px;
+  background-color: grey;
+  padding: 20px;
+}
+.tarjeta2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  width: 690px;
+  height: 840px;
+  text-align: center;
+  margin: -880px 0px 0px 1000px;
+  border: 10px;
+  background-color: #D4A417;
+  padding: 20px;
+}
+.tarjeta3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  width: 690px;
+  height: 840px;
+  text-align: center;
+  margin: 150px 0px 0px 100px;
+  border: 10px;
+  background-color: #BD1212;
+  padding: 20px;
+}
+.img{
+  width: 650px;
+  height: 650px;
+  margin: 0 0 0 20px;
+}
+.imgTienda{
+  grid-row: 1-2;
+  grid-column: 1/3;
+  text-align: justify;
+  color: #ffffff;
+}
+.descripcion{
+  grid-column: 1;
+  grid-row: 3;
+  text-align: justify;
+  color: #ffffff;
+  padding: 15px;
+}
+.informacion{
+  grid-column: 2;
+  grid-row: 3;
+  text-align: justify;
+  color: #ffffff;
+  padding: 15px;
+}
+.ofertas{
+  grid-column: 3;
+  grid-row: 3;
+  text-align: justify;
+  color: #ffffff;
+  padding: 15px;
+}
+.tienda{
+  width: 40%;
+  margin: -800px 0 0 1000px;
+}
+.guia{
+  color: #ffffff;
+  padding: 20px;
+  margin: 100px 0 0 0;
+}
+/*Blog-----------------------------------------------------------------------*/
+.tituloblog{
+  margin: 150px 0 0 200px ;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2cm;
+  width: 1500px;
+  height: 200px;
+}
+.textoblog{
+  text-align: justify;
+  color: #ffffff;
+  font-size: 0.5cm;
+}
+.cuadro1{
+  width: 1500px;
+  height: 200px;
+  margin: 0px 0 0 100px;
+  padding: 15px;
+  background: linear-gradient(to right, rgb(163, 161, 161), rgb(129, 129, 153));
+}
+.cuadro2{
+  width: 1500px;
+  height: 200px;
+  margin: 50px 0 0 100px;
+  padding: 15px;
+  background: linear-gradient(to right, rgba(189, 184, 184, 0.493), rgb(101, 101, 134));
+}
+.cuadro3{
+  width: 1500px;
+  height: 200px;
+  margin: 50px 0 0 100px;
+  padding: 15px;
+  background: linear-gradient(to right, rgba(189, 184, 184, 0.493), rgb(106, 106, 180));
+}
+/*Colaboraciones--------------------------------------------------------------*/
+.video{
+  margin: 100px 0 0 100px;
+}
+.colab{
+  margin: -390px 0 0 1200px;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1cm;
+}
+/*Responsividad---------------------------------------------------------------*/
+/* Mobile----------------------------------------------------------------------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .colab {
+    width: 100%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .cuadro1 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro2 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro3 {
+    width: 80%;
+    height: auto;
+  }
+  .textoblog {
+    width: 100%;
+    height: auto;
+  }
+  .tituloblog {
+    width: 80%;
+    height: auto;
+  }
+
+  .imgTienda {
+    width: 140%;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imgp1 {
+    width: 30%;
+    height: auto;
+  }
+  .p1 {
+    width: 80%;
+    height: auto;
+  }
+  .titulo_p1 {
+    width: 60%;
+    height: auto;
+  }
+  .texto_p1 {
+    width: 50%;
+    height: auto;
+  }
+  .emo {
+    width: 40%;
+    height: auto;
+  }
+  .icono_1 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_2 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_3 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_4 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_5 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_6 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_7 {
+    width: 100%;
+    height: auto;
+  }
+  .iconos {
+    width: 25%;
+    height: auto;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+  }
+  .tienda {
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+/* Tablet (paisajes) -----------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .colab {
+    width: 100%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .cuadro1 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro2 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro3 {
+    width: 80%;
+    height: auto;
+  }
+  .textoblog {
+    width: 100%;
+    height: auto;
+  }
+  .tituloblog {
+    width: 80%;
+    height: auto;
+  }
+
+  .imgTienda {
+    width: 140%;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imgp1 {
+    width: 30%;
+    height: auto;
+  }
+  .p1 {
+    width: 80%;
+    height: auto;
+  }
+  .titulo_p1 {
+    width: 60%;
+    height: auto;
+  }
+  .texto_p1 {
+    width: 50%;
+    height: auto;
+  }
+  .emo {
+    width: 40%;
+    height: auto;
+  }
+  .icono_1 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_2 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_3 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_4 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_5 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_6 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_7 {
+    width: 100%;
+    height: auto;
+  }
+  .iconos {
+    width: 25%;
+    height: auto;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+  }
+  .tienda {
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+/* Tablet -----------------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+  .colab {
+    width: 100%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .cuadro1 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro2 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro3 {
+    width: 80%;
+    height: auto;
+  }
+  .textoblog {
+    width: 100%;
+    height: auto;
+  }
+  .tituloblog {
+    width: 80%;
+    height: auto;
+  }
+
+  .imgTienda {
+    width: 140%;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imgp1 {
+    width: 30%;
+    height: auto;
+  }
+  .p1 {
+    width: 80%;
+    height: auto;
+  }
+  .titulo_p1 {
+    width: 60%;
+    height: auto;
+  }
+  .texto_p1 {
+    width: 50%;
+    height: auto;
+  }
+  .emo {
+    width: 40%;
+    height: auto;
+  }
+  .icono_1 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_2 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_3 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_4 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_5 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_6 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_7 {
+    width: 100%;
+    height: auto;
+  }
+  .iconos {
+    width: 25%;
+    height: auto;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+  }
+  .tienda {
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+/* Desktop (standard) ------------------------------------------------------*/
+
+@media only screen and (min-width: 1025px) {
+
+  .colab {
+    width: 100%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .cuadro1 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro2 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro3 {
+    width: 80%;
+    height: auto;
+  }
+  .textoblog {
+    width: 100%;
+    height: auto;
+  }
+  .tituloblog {
+    width: 80%;
+    height: auto;
+  }
+
+  .imgTienda {
+    width: 140%;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imgp1 {
+    width: 30%;
+    height: auto;
+  }
+  .p1 {
+    width: 80%;
+    height: auto;
+  }
+  .titulo_p1 {
+    width: 60%;
+    height: auto;
+  }
+  .texto_p1 {
+    width: 50%;
+    height: auto;
+  }
+  .emo {
+    width: 40%;
+    height: auto;
+  }
+  .icono_1 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_2 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_3 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_4 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_5 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_6 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_7 {
+    width: 100%;
+    height: auto;
+  }
+  .iconos {
+    width: 25%;
+    height: auto;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+  }
+  .tienda {
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+/* Desktop (ancho) -----------------------------------------------------------*/
+
+@media only screen and (min-width: 1224px) {
+  .colab {
+    width: 100%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  .cuadro1 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro2 {
+    width: 80%;
+    height: auto;
+  }
+  .cuadro3 {
+    width: 80%;
+    height: auto;
+  }
+  .textoblog {
+    width: 100%;
+    height: auto;
+  }
+  .tituloblog {
+    width: 80%;
+    height: auto;
+  }
+
+  .imgTienda {
+    width: 140%;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imgp1 {
+    width: 30%;
+    height: auto;
+  }
+  .p1 {
+    width: 80%;
+    height: auto;
+  }
+  .titulo_p1 {
+    width: 60%;
+    height: auto;
+  }
+  .texto_p1 {
+    width: 50%;
+    height: auto;
+  }
+  .emo {
+    width: 40%;
+    height: auto;
+  }
+  .icono_1 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_2 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_3 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_4 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_5 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_6 {
+    width: 100%;
+    height: auto;
+  }
+  .icono_7 {
+    width: 100%;
+    height: auto;
+  }
+  .iconos {
+    width: 25%;
+    height: auto;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+  }
+  .tienda {
+    width: 40%;
+    height: auto;
+  }
+}

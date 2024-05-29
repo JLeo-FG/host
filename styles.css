@@ -1,0 +1,152 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del menú de navegación */
+
+nav {
+width: 100%;
+  background-color: #ffffff;
+  padding: 0 10px 10px 0;
+}
+ul{
+  background-color: #ffffff;
+  padding: 0 10px 10px 0;
+  list-style-type: none;
+  margin: 0;
+text-align: center;
+
+}
+nav li {
+  display: inline;
+
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 10px 70px 10px 70px;
+  text-decoration: none;
+}
+h6{
+  color:rgb(0, 0, 0)
+}
+.boton{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+  padding: 25px 100px 25px 100px;
+  margin: 23px;
+  font-size: 0.6cm;
+}
+.boton:hover{
+  background-color: #afafaf;
+}
+.boton:active{
+  background-color: #818181;
+}
+.iniciar{
+  text-align: right;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  margin-top: 100px;
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.login-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.login-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login-container p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.login-container a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+.fondo{
+  background-image: url(Imgfondo/home.png);
+  background-repeat: no-repeat;
+  color: #ffffff;
+    /* Rellenamos el fondo */
+    min-height: 100%;
+    min-width: 800px;
+
+    /* Escalamiento proporcional */
+    width: 100%;
+    height: 30cm;
+
+    /* Posicionamiento */
+    position: left;
+    top: 0;
+    left: 0;
+}
+.nero{
+  text-align: right;
+  margin: 0px 550px 0px 0px;
+  font-size: 2.3cm;
+}
+.mi{
+  width: 100%;
+  margin: -70px 0px 0px -8px;
+}
